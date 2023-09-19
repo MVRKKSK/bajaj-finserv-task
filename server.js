@@ -32,6 +32,10 @@ app.get("/bfhl", (req, res) => {
     res.status(200).json(responseData);
 });
 
+app.get("/", (req, res) => {
+    res.send("welcome to the bajaj task");
+})
+
 
 const port = 3000;
 app.listen(process.env.PORT || port, () => {
