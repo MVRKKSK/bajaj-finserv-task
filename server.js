@@ -48,7 +48,7 @@ app.get("/bfhl", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-    res.status(200).send("Hello, this is your root URL!");
+    res.status(200).send("Welcome to the bajaj finserv task .");
 });
 
 const port = 3000;
